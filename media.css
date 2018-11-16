@@ -1,0 +1,49 @@
+@charset "utf-8";
+h1 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: normal;
+	font-size: 35pt;
+	text-align: center;
+	background-color: rgba(144,15,15,1.00);
+	color: rgba(255,255,255,1.00);
+	background-image: -webkit-linear-gradient(270deg,rgba(144,15,15,1.00) 0%,rgba(70,2,3,1.00) 100%);
+	background-image: -moz-linear-gradient(270deg,rgba(144,15,15,1.00) 0%,rgba(70,2,3,1.00) 100%);
+	background-image: -o-linear-gradient(270deg,rgba(144,15,15,1.00) 0%,rgba(70,2,3,1.00) 100%);
+	background-image: linear-gradient(180deg,rgba(144,15,15,1.00) 0%,rgba(70,2,3,1.00) 100%);
+}
+h2 {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 25pt;
+}
+p {
+	font-size: 15pt;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align: left;
+}
+
+
+#container {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1024px;
+}
+#heading {
+
+
+}
+#nav {
+	width: 1024px;
+	height: 30px;
+}
+#text {
+	float: left;
+}
+#container #nav a {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 14pt;
+	text-decoration: underline;
+}
+#container #image p {
+	text-align: center;
+}
